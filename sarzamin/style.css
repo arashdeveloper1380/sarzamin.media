@@ -1,0 +1,327 @@
+@import url(css/responsive.css);
+@font-face {font-family: 'vazir';src: url('fonts/Vazir.woff') format("woff");}
+@font-face {font-family: shabnam;src: url("fonts/Shabnam-FD-WOL.woff") format("woff");}
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body {font-family: shabnam;}
+a{text-decoration: none;}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #240866; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #240866; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #240866; 
+}
+
+/* ------------------------- Satrt Header ------------------------- */
+    header{
+        /* background-color: cyan; */
+        width: 100%;
+        height: 100px;
+    }
+    header .header{
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    header .header ul{
+        margin: 0;
+        padding: 0;
+    }
+    header .header ul li{
+        margin-right: 10px;
+        list-style: none;
+        float: right;
+        padding: 30px 20px;
+    }
+    header .header ul li .fa-home{
+        font-size: 30px;
+        padding-left: 10px;
+        float: right;
+        line-height: 20px;
+        color: #240766;
+    }
+    header .header ul li a{
+        color: #240766;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    header .header ul li .instagram{
+        background-color: #240866;
+        padding: 10px;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+/* ------------------------- End Header ------------------------- */
+
+
+
+/* ------------------------- Satrt Main ------------------------- */
+    .main{
+        width: 100%;
+        height: 700px;
+    }
+    .main .main-left{
+        width: 100%;
+        height: 700px;
+    }
+
+    .box-main{
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        margin-bottom: 30px;
+    }
+
+    .box-main .box-image{
+        width: 100%;
+    }
+    .box-main .box-image img{
+        height: 300px;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .box-main .box-content{
+        height: 80px;
+        box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .box-main .box-content p{
+        text-align: right;
+        padding-right: 10px;
+        padding-top: 10px;
+        color: #240766;
+    }
+    .box-main .box-content p span.fa-heart-o{
+        float: left;
+        padding-left: 20px;
+    }
+    .main .main-right{
+        background-color: green;
+        width: 100%;
+        height: 700px;
+    }
+/* ------------------------- End Main ------------------------- */
+
+
+
+
+
+/* ------------------------- Start single -------------------------*/
+
+    .single-main{
+        width: 100%;
+        height: 800px;
+    }
+    .single-main .single-left{
+        width: 100%;
+        height: 800px;
+        float: left;
+    }
+    .single-main .single-right{
+        position: relative;
+        width: 100%;
+        height: 800px;
+        float: left;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 30px;
+    }
+    span.carousel-control-next-icon{
+        background-image: url('images/next.png');
+        transform: scale(1.8);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    span.carousel-control-prev-icon{
+        background-image: url('images/prev.png');
+        transform: scale(1.8);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .single-right .single-header{
+        width: 100%;
+        height: 100px;
+    }
+    .single-header .header-info{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .single-header .header-info .eye, .heart{
+        font-size: 21px;
+    }
+    .single-header .header-info .fa-eye{
+        padding-right: 10px;
+        padding-right: 10px;
+        font-size: 30px;
+        color: #c1c1c1;
+    }
+    .single-header .header-info .fa-heart{
+        vertical-align: middle;
+        padding-right: 10px;
+        font-size: 30px;
+        color: crimson;
+    }
+    .single-right .single-header h1{
+        text-align: right;
+        font-size: 21px;
+        padding: 50px 30px;
+        font-weight: bold;
+    }
+    .single-right .single-header h1:after{
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        -moz-border-radius: 7.5px;
+        -webkit-border-radius: 7.5px;
+        border-radius: 7.5px;
+        background-color: #240866;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+    .single-right .single-content{
+        width: 100%;
+        height: 570px;
+    }
+    .single-right .single-content .box-content{
+        width: 90%;
+        height: 570px;
+        margin: 0 auto;
+        text-align: right;
+        direction: rtl;
+        box-shadow: rgb(183 183 193 / 25%) 0px 30px 60px -12px inset, rgb(177 163 163 / 30%) 0px 18px 36px -18px inset;
+        padding: 40px;
+        border-radius: 30px;
+    }
+    .single-right .single-content .box-content p{
+        line-height: 40px !important;
+        text-align: justify;
+    }
+    .single-footer p{
+        margin-left: 40px !important;
+        font-family: 'vazir';
+        cursor: pointer;
+    }
+    .single-footer .fa-comment{
+        padding-right: 10px;
+        font-size: 25px;
+        vertical-align: middle;
+    }
+    .single-footer form{
+        position: relative;
+        width: 100%;
+    }
+    .single-footer form .comment-text{
+        width: 90%;
+        height: 60px;
+        margin: 0 30px;
+        border-radius: 30px;
+        border: 1px solid #c2c2c2;
+        padding-right: 25px;
+    }
+    .single-footer form button.fa-share{
+        position: absolute;
+        left: 39px;
+        top: 5px;
+        font-size: 25px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        width: 50px;
+        height: 50px;
+        transform: scaleX(-1);
+        color: #240866;
+    }
+    #carousel{
+        height: 100%;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    #control{
+        display: none;
+    }
+    .control{
+        position: relative;
+        font-size: 40px;
+        float: right;
+        line-height: 90px;
+        margin-right: 20px;
+        color: #240866;
+        cursor: pointer;
+    }
+    .menu-mobile li{
+        float: none !important;
+    }
+    .box-menu{
+        display: none;
+        right: -100px;
+    }
+    #control:checked~.box-menu{
+        display: block;
+        right: 0;
+    }
+
+    .comment-box{
+        width: 100%;
+        height: 88%;
+        background: #fff;
+        display: none;
+        position: absolute;
+        border-radius: 20px;
+    }
+    .comment-box .comment-header{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 30px;
+        font-family: 'vazir'
+    }
+    .comment-box .comment-header .fa-close{
+        cursor: pointer;
+        font-size: 20px;
+        color: #240866;
+    }
+    .comment-box .comment-header .title{
+        line-height: 33px;
+    }
+    .comment-box .comment-body{
+        width: 100%;
+        overflow: auto;
+        height: 85%;
+    }
+    .comment-box .comment-text{
+        box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+        margin: 10px 20px;
+        border-radius: 10px;
+    }
+    .comment-box .comment-text .text{
+        padding: 10px 20px;
+        text-align: right;
+    }
+    .comment-box .comment-text p{
+        font-weight: bold;
+    }
+
+/* ------------------------- End single -------------------------*/
