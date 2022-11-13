@@ -1,5 +1,6 @@
 # sarzamin.media
 Social Media https://sarzaminmelk.com/
+https://insta.sarzaminmelk.com/
 
 Write: [
     Bootstrap ,
